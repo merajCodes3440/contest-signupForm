@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&family=Arsenal:wght@400;700&family=Barlow+Condensed:wght@200;300;400&family=Merriweather:wght@300;400;700&display=swap');
+body{
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    padding:10px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.right-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;  
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:3px;
+    padding:80px 150px;
+}
+.container h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+input {
+    box-shadow: none;
+    border-style: none;
+    font-size: 18px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding:12px;
+    color:white;
+}
+/* input:focus{
+    box-shadow: none;
+} */
+.btn {
+    font-size: 17px;
+    width:120px;
+    height:40px;
+    border-radius: 5px;
+    margin-top:80px;
+   
+}
+#message{
+    color:red;
+    font-size: 13px;;
+}
+
+ /* css of second page  */
+
+ .container2{
+    margin:50px 100px;
+ }
+ p{
+    color:white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+ }
+ .container2 .btn{
+    margin-top:10px;
+ }
+ #fname2{
+    color:white;
+ }
